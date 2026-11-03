@@ -1,5 +1,6 @@
 # LingoSprint
 
+
 Production-style Duolingo-like web application built with Flask, SQLite, server-rendered HTML templates, and browser-side JavaScript. It includes authentication, hierarchical course content, placement tests, adaptive difficulty, spaced repetition, XP/levels/streaks/leagues, achievements, coins, boosts, analytics, social friends and score comparisons, leaderboards, and simulated push/reminder notifications.
 
 ## Stack
@@ -104,7 +105,7 @@ python3 -m venv .venv
 .venv/bin/python run.py
 ```
 
-4. Open `http://127.0.0.1:5000`
+4. Open `http://127.0.0.1:5016`
 
 The app calls `db.create_all()` and seeds initial content automatically when the database is empty.
 
