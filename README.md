@@ -121,3 +121,7 @@ FLASK_APP=run.py .venv/bin/flask seed-db
 - Speaking and listening exercises use browser Web Speech APIs. Browser support varies; typed fallback remains available for speaking prompts.
 - Notification delivery is simulated in-app and can also use browser notifications when permission is granted.
 - The local environment used during implementation did not have network access for package download, so dependency installation must be run in an environment that can reach PyPI or already has those wheels available.
+
+## License
+
+Released under the [MIT License](LICENSE).
